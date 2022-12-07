@@ -1,4 +1,6 @@
 import './App.css';
+import TaskList from './components/TaskList';
+
 import Tasks from './components/Tasks'
 
 function App() {
@@ -7,9 +9,9 @@ function App() {
       <div className='task-App-Container'>
         <div className='tasks-Main'>
           <h1>Mis tareas</h1>
-          <Tasks 
-          text='Aprender React'
-          completed={true} />
+          
+          <TaskList />
+          
 
         </div>
       </div>
